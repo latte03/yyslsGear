@@ -13,6 +13,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AImage: typeof import('./../src/components/AImage.vue')['default']
+    GearCard: typeof import('./../src/components/GearCard/index.vue')['default']
+    GearStat: typeof import('./../src/components/GearCard/GearStat.vue')['default']
     IconCommunity: typeof import('./../src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./../src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./../src/components/icons/IconEcosystem.vue')['default']
@@ -20,7 +22,16 @@ declare module 'vue' {
     IconTooling: typeof import('./../src/components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TButton: typeof import('tdesign-vue-next')['Button']
     TheWelcome: typeof import('./../src/components/TheWelcome.vue')['default']
+    TInput: typeof import('tdesign-vue-next')['Input']
+    TInputNumber: typeof import('tdesign-vue-next')['InputNumber']
+    TPopup: typeof import('tdesign-vue-next')['Popup']
+    TRadio: typeof import('tdesign-vue-next')['Radio']
+    TRadioButton: typeof import('tdesign-vue-next')['RadioButton']
+    TRadioGroup: typeof import('tdesign-vue-next')['RadioGroup']
+    TSelect: typeof import('tdesign-vue-next')['Select']
+    TSwitch: typeof import('tdesign-vue-next')['Switch']
     WelcomeItem: typeof import('./../src/components/WelcomeItem.vue')['default']
   }
 }
@@ -28,6 +39,8 @@ declare module 'vue' {
 // For TSX support
 declare global {
   const AImage: typeof import('./../src/components/AImage.vue')['default']
+  const GearCard: typeof import('./../src/components/GearCard/index.vue')['default']
+  const GearStat: typeof import('./../src/components/GearCard/GearStat.vue')['default']
   const IconCommunity: typeof import('./../src/components/icons/IconCommunity.vue')['default']
   const IconDocumentation: typeof import('./../src/components/icons/IconDocumentation.vue')['default']
   const IconEcosystem: typeof import('./../src/components/icons/IconEcosystem.vue')['default']
@@ -35,6 +48,15 @@ declare global {
   const IconTooling: typeof import('./../src/components/icons/IconTooling.vue')['default']
   const RouterLink: typeof import('vue-router')['RouterLink']
   const RouterView: typeof import('vue-router')['RouterView']
+  const TButton: typeof import('tdesign-vue-next')['Button']
   const TheWelcome: typeof import('./../src/components/TheWelcome.vue')['default']
+  const TInput: typeof import('tdesign-vue-next')['Input']
+  const TInputNumber: typeof import('tdesign-vue-next')['InputNumber']
+  const TPopup: typeof import('tdesign-vue-next')['Popup']
+  const TRadio: typeof import('tdesign-vue-next')['Radio']
+  const TRadioButton: typeof import('tdesign-vue-next')['RadioButton']
+  const TRadioGroup: typeof import('tdesign-vue-next')['RadioGroup']
+  const TSelect: typeof import('tdesign-vue-next')['Select']
+  const TSwitch: typeof import('tdesign-vue-next')['Switch']
   const WelcomeItem: typeof import('./../src/components/WelcomeItem.vue')['default']
 }

@@ -27,6 +27,8 @@ export default (configEnv: ConfigEnv): UserConfigExport => {
     server: {
       /** 设置 host: true 才可以使用 Network 的形式，以 IP 访问项目 */
       host: true,
+      /** 端口号 */
+      port: 9995,
       /** 跨域设置允许 */
       cors: true,
       proxy: {

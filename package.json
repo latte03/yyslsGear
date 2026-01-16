@@ -26,6 +26,7 @@
     "alova": "^3.4.1",
     "axios": "^1.13.2",
     "bumpp": "^10.4.0",
+    "es-toolkit": "^1.44.0",
     "fast-querystring": "^1.1.2",
     "lodash-es": "^4.17.22",
     "nprogress-v2": "^1.1.10",

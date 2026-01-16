@@ -11,6 +11,8 @@
     "cypress.config.*",
     "playwright.config.*",
     "types/**/*.d.ts",
-    "package.json"
+    "package.json",
+    "src/**/*.ts",
+    "src/**/*.vue",
   ]
 }
